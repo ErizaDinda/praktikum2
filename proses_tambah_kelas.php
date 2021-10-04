@@ -6,9 +6,9 @@
     $input = mysqli_query($koneksi, "INSERT INTO kelas (nama_kelas, kelompok) VALUES ('{$nama_kelas}','{$kelompok}')");
     
     if($input){
-        echo "<script>alert('Berhasil');location.href='tampil_kelas.php';</script>";
+        echo "<script>alert('Sukses Menambahkan Kelas');location.href='tampil_kelas.php';</script>";
     }
     else{
-        echo "<script>alert('Gagal');location.href='tampil_kelas.php';</script>";
+        echo "<script>alert('Gagal Menambahkan Kelas');location.href='tampil_kelas.php';</script>";
     }
 ?>

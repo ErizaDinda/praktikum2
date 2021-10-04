@@ -16,12 +16,12 @@
         $input = mysqli_query($koneksi, "INSERT INTO buku (nama_buku, pengarang, deskripsi, foto) VALUES ('".$nama_buku."', '".$pengarang."', '".$deskripsi."', '".$name."')");
 
         if ($input) {
-            echo "<script>alert('Berhasil');location.href='tampil_buku.php';</script>";
+            echo "<script>alert('Sukses Menambahkan Buku');location.href='tampil_buku.php';</script>";
         }else {
-            echo "<script>alert('Gagal');location.href='tampil_buku.php';</script>";
+            echo "<script>alert('Gagal Menambahkan Buku');location.href='tampil_buku.php';</script>";
         }
     }
     else {
-        echo "<script>alert('File tidak sesuai');location.href='tampil_buku.php';</script>";
+        echo "<script>alert('File Tidak Sesuai');location.href='tampil_buku.php';</script>";
     }
 ?>

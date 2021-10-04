@@ -41,8 +41,8 @@ include 'koneksi.php';
   $result = mysqli_query($koneksi, $sql);
 
   if ($result) {
-    echo "<script>alert('Berhasil');location.href='tampil_buku.php';</script>";
+    echo "<script>alert('Sukses Update Buku');location.href='tampil_buku.php';</script>";
   }
   else {
-    echo "<script>alert('Gagal');location.href='tampil_buku.php';</script>";
+    echo "<script>alert('Gagal Update Buku');location.href='tampil_buku.php';</script>";
   }

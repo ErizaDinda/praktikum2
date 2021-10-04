@@ -50,7 +50,7 @@
         Password :
         <input type="password" name="password" value="" class="form-control">
         <br>
-        <input type="submit" name="simpan" value="Tambah Siswa" class="btn btn-primary">
+        <input type="submit" name="simpan" value="Submit" class="btn btn-primary">
     </form>
     </div>
     <!-- JavaScript Bundle with Popper -->
